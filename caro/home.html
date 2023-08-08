@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="./asset/css/home.css">
+<link rel="stylesheet" href="./asset/css/caro.css">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="./asset/images/icon.png">
+    <title>Home game tic tac toe</title>
+    <iframe width="0" height="0" src="http://youtuberepeater.com/" frameborder="0" allowfullscreen></iframe>
+</head>
+<body>
+    <h1 class="select_play">
+        Chọn chế độ chơi
+    </h1>
+    <div>
+        
+        <div class="options">
+            <label for="list-type-play"></label><select id="list-type-play" class="hide-option option">
+            <option selected="selected" disabled="disabled" value="">Chọn kiểu chơi</option>
+            <option value="2-players">2 Người chơi</option>
+            <option value="player-computer">Người Vs Máy</option>
+            <option value="computer-computer">Máy Vs Máy</option>
+        </select>
+        </div>
+
+        <div class="options" style="margin-top: 30px">
+            <label for="list-row"></label><select id="list-row" class="hide-option option">
+            <option selected="selected" disabled="disabled" value="">Chon số lượng hàng</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+            <option value="60">60</option>
+        </select>
+        </div>
+
+        <div class="options" style="margin-top: 30px">
+            <label for="list-column"></label><select id="list-column" class="hide-option option">
+            <option selected="selected" disabled="disabled" value="">Chọn số lượng cột</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+            <option value="60">60</option>
+        </select>
+        </div>
+    </div>
+
+<div class="button" id="button" onclick="handleLetGo()">Bắt đầu</div>
+</body>
+</html>
+
+<script type="text/javascript" src="./asset/js/caro-home.js"></script>
